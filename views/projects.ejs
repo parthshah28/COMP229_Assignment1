@@ -1,17 +1,62 @@
-<%- include('partials/above'); -%>
+<%- include('partials/header'); -%>
 
-<div class="container font-weight-bolder" data-aos="zoom-in-right">
-    <h1 class="display-5">My Projects</h1>
-    <p></p>
-    <h4 class="display-7">Stocks Sentiment Analysis</h4>
-    <p>ML based sentiment analysis model which can be used to understand sentiment from public tweets as a factor while making a buy/sell decision of securities</p>
-    <p><a class="btn btn-primary btn-lg active" href="https://github.com/parthshah28/Stocks_Sentiment_Analysis" role="button">Learn more</a></p> 
-    <h4 class="display-7">Employee Attrition Predictor</h4>
-    <p>A model that can predict which employees are more likely to quit.</p>
-    <p><a class="btn btn-primary btn-lg active" href="https://github.com/parthshah28/employee_attrition_predictor" role="button">Learn more</a> &nbsp;&nbsp; <a class="btn btn-secondary btn-lg active" href="https://employee-attrition-predictor.herokuapp.com/home" role="button">Demo</a></p> 
-    <h4 class="display-7">Data Extraction of Movies</h4>
-    <p>A Project For Extracting 60,000+ Movies/TV Shows IMDb Data.</p>
-    <p><a class="btn btn-primary btn-lg active" href="https://github.com/parthshah28/Data_Extraction_of_Movies" role="button">Learn more</a> &nbsp;&nbsp; <a class="btn btn-secondary btn-lg active" href="https://github.com/parthshah28/Data_Extraction_of_Movies/blob/main/images/IMDB.gif" role="button">Dashboard</a></p> 
-</div>
+    <div class="container font-weight-bolder" data-aos="zoom-in-right">
+        <h1 class="display-5">My Projects</h1>
+        <p></p>
+        <div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../images/projects/stock-min.jpg" class="imgHeight" alt="Stock Image">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="display-7">Stocks Sentiment Analysis</h4>
+                    <p>ML based sentiment analysis model which can be used to understand sentiment from public tweets as
+                        a
+                        factor while making a buy/sell decision of securities</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg active"
+                            href="https://github.com/parthshah28/Stocks_Sentiment_Analysis" role="button">Learn more</a>
+                    </p>
+                </div>
 
-<%- include('partials/script'); -%>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 ">
+                    <img src="../images/projects/employee.jpg" class="imgHeight" alt="Stock Image">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="display-7">Employee Attrition Predictor</h4>
+                    <p>A model that can predict which employees are more likely to quit.</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg active"
+                            href="https://github.com/parthshah28/employee_attrition_predictor" role="button">Learn
+                            more</a>
+                        &nbsp;&nbsp;
+                        <a class="btn btn-secondary btn-lg active"
+                            href="https://employee-attrition-predictor.herokuapp.com/home" role="button">Demo</a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="row mt-5 pb-5">
+                <div class="col-md-3">
+                    <img src="../images/projects/imdb.png" class="imgHeight" alt="Stock Image">
+                </div>
+                <div class="col-md-9">
+                    <h4 class="display-7">Data Extraction of Movies</h4>
+                    <p>A Project For Extracting 60,000+ Movies/TV Shows IMDb Data.</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg active"
+                            href="https://github.com/parthshah28/Data_Extraction_of_Movies" role="button">Learn more</a>
+                        &nbsp;&nbsp;
+                        <a class="btn btn-secondary btn-lg active"
+                            href="https://github.com/parthshah28/Data_Extraction_of_Movies/blob/main/images/IMDB.gif"
+                            role="button">Dashboard</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/script'); -%>
