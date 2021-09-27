@@ -1,8 +1,16 @@
-<%- include('partials/header'); -%>
+<!--
+ @author Parth Shah
+ @studentID 301171805
+ @date September 27, 2021
+ @description Personal Portfolio website
+-->
 
+<%- include('partials/header'); -%>
+    <!-- MAIN CONTENT -->
     <div class="container p-4 font-weight-bolder" data-aos="zoom-out">
         <form action="/contact" method="POST">
             <div class="row">
+                 <!--Title-->
                 <h1 class="display-5">Contact Me</h1>
                 <div>
                     
@@ -10,12 +18,15 @@
                 <div class="row well">
                     <div class="col-md-12">
                         <ul style="list-style: none; padding: 0;">
+                            <!--Contacts-->
                             <li>Email Address: <a href="mailto:shahp7210@gmail.com">shahp7210@gmail.com</a></li>
                             <li>Phone: (+91) 9638051033</li>
                         </ul>
                     </div>
                 </div>
+                <!--Contact me form-->
                 <div class="col-md-4">
+                    <!-- Form Inputs-->
                     <div class=" form-group">
                         <label for="firstName">First Name</label>
                         <input class="form-control" name="firstName" id="firstName">
