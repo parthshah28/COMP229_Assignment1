@@ -4,6 +4,13 @@
  * Module dependencies.
  */
 
+/** 
+ @author Parth Shah
+ @studentID 301171805
+ @date September 27, 2021
+ @description Personal Portfolio website
+**/ 
+
 var app = require('./app');
 var debug = require('debug')('comp229-expressportfolio:server');
 var http = require('http');
