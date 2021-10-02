@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-var app = require('./config/app');
+var app = require('./app');
 var debug = require('debug')('comp229-expressportfolio:server');
 var http = require('http');
 
